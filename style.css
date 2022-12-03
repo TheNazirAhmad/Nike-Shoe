@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+body {
+    background-color: rgb(111, 167, 29);
+    height: 100vh;
+    width: 100%;
+}
+.container {
+    height: 85vh;
+    padding: 30px;
+    background-color: #ffffff;
+    position: relative;
+    box-sizing: border-box;
+}
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 180px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+nav {
+    flex: 1;
+    padding-left: 420px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #1b1b1b;
+    font-size: 15px;
+    font-weight: 600;
+}
+a .cart {
+    font-size: 60px;
+    margin-right: 25px;
+    color: #1b1b1b;
+}
+a .cart:hover {
+    transform: scale(1.1);
+    color: rgb(111, 167, 29);
+    transition: all .5s;
+}
+.content {
+    margin-top: 100px;
+}
+h1 {
+    font-size: 80px;
+    color: #1b1b1b;
+}
+.style {
+    font-style: italic;
+    color: rgb(111, 167, 29);
+}
+p {
+    letter-spacing: .1em;
+}
+.text {
+    margin-top: 30px;
+}
+button {
+    padding: 15px 45px;
+    border: 0;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(111, 167, 29);
+}
+button:hover {
+    color: #ffffff;
+    background-color: rgb(111, 167, 29);
+    transform: scale(1.1);
+    transition: all .5s;
+}
+.social-media {
+    margin-left: 280px;
+    margin-top: -53px;
+}
+a .icons {
+    margin-right: 30px;
+    color: rgb(111, 167, 29);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+a .icons:hover {
+    background-color: rgb(111, 167, 29);
+    color: #ffffff;
+    transform: scale(1.1);
+    transition: all .5s;
+}
+.image {
+    transform: rotate(-40deg);
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: 15%;
+    left: 50%;
+}
+@media only screen and (min-width: 840px) and (max-width: 1200px) {
+    nav {
+        padding-left: 20px;
+    }
+    .logo {
+        width: 130px;
+    }
+    a .cart {
+        margin-right: 10px;
+        font-size: 40px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 11.3px;
+    }
+    button {
+        padding: 12px 36px;
+        font-size: 20px;
+    }
+    .social-media {
+        margin-left: 180px;
+        margin-top: -43px;
+    }
+    .image {
+        width: 350px;
+        height: 350px;
+        top: 18%;
+        left: 50%;
+    }
+}
+@media only screen and ( max-width: 839px ) {
+    .navbar {
+        height: 10vh;
+    }
+    .logo {
+        width: 60px;
+        margin-top: 8px;
+    }
+    nav {
+        padding-left: 10px;
+    }
+    nav ul li a {
+        font-size: 12px;
+    }
+    a .cart {
+        font-size: 30px;
+    }
+    .content {
+        margin-top: 80px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 12px;
+    }
+    button {
+        padding: 8px 24px;
+        font-size: 17px;
+    }
+    .social-media {
+        margin-left: 130px;
+        margin-top: -38px;
+    }
+    .image {
+        width: 280px;
+        height: 280px;
+        top: 50%;
+    }
+}
